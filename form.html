@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Calon Pegawai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e864e8, #481459);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        fieldset {
+            border: none;
+        }
+        legend {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="password"],
+        textarea,
+        select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            background: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #218838;
+        }
+        .back {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .back a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .back a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend>
+            <p>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" />
+            </p>
+            <p>
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" />
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+            </p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <input type="radio" id="jk1" name="jk" value="laki-laki" checked />
+                <label for="jk1">Laki - Laki</label>
+                <input type="radio" id="jk2" name="jk" value="perempuan" />
+                <label for="jk2">Perempuan</label>
+            </p>
+            <p>
+                <label>Bahasa pemrograman yang dikuasai:</label> <br>
+                <input type="checkbox" id="Haskell" name="Haskell" />
+                <label for="Haskell">Haskell</label>
+                <input type="checkbox" id="Rust" name="Rust" />
+                <label for="Rust">Rust</label>
+                <input type="checkbox" id="Malbolge" name="Malbolge" />
+                <label for="Malbolge">Malbolge</label>
+            </p>
+            <p>
+                <label for="kota">Kota asal:</label>
+                <select id="kota">
+                    <option>Semarang</option>
+                    <option>Bandung</option>
+                    <option>Denpasar</option>
+                    <option>Yogyakarta</option>
+                    <option>Jakarta</option>
+                    <option>Banyuwangi</option>
+                    <option>Bogor</option>
+                    <option>Cirebon</option>
+                    <option>Sukabumi</option>
+                    <option>Tasikmalaya</option>
+                    <option>Surabaya</option>
+                    <option>blitar</option>
+                    <option>Jember</option>
+                    <option>Kediri</option>
+                    <option>Madiun</option>
+                    <option>Malang</option>
+                    <option>Pasuruan</option>
+                    <option>Probolinggo</option>
+                    <option>Tuban</option>
+                    <option>Medan</option>
+                    <option>Belawan</option>
+                    <option>Pematangsiantar</option>
+                    <option>Sibolga</option>
+                    <option>Makassar</option>
+                    <option>Balikpapan</option>
+                    <option>Kupang</option>
+                    <option>Ambon</option>
+                    <option>Jayapura</option>
+                </select>
+            </p>
+            <p>
+                <label for="alasan">Apa yang Membuat Kami harus memilih Anda?:</label> <br>
+                <textarea id="alasan" rows="10" cols="60" placeholder="Tulis jawaban Anda di sini"></textarea>
+            </p>
+            <p><input type="submit" value="Submit" /></p>
+        </fieldset>
+    </form>
+</body>
+</html>

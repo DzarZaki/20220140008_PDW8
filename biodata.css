@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #cd3333, #bedd25); /* Gradasi warna */
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile h2 {
+    font-size: 1.8em;
+    margin: 10px 0 5px;
+  }
+  
+  .profile p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .personal-info, .education, .work-experience, .self-description {
+    margin-bottom: 30px;
+  }
+  
+  .personal-info h3, .education h3, .work-experience h3, .self-description h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .personal-info ul, .education ul, .work-experience ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .personal-info li, .education li, .work-experience li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .personal-info li strong, .education li strong, .work-experience li strong {
+    color: #000;
+  }
+  
+  .self-description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+  }
+  
