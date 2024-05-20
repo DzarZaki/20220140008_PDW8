@@ -1,0 +1,7 @@
+![1](https://github.com/DzarZaki/Tugas10_20220140008/assets/127292915/0c8bf59d-a366-4c42-9279-e772a4f8e59c)
+![2](https://github.com/DzarZaki/Tugas10_20220140008/assets/127292915/29f9a719-acbe-48e0-8ab2-2b05d9bb1d31)
+![3](https://github.com/DzarZaki/Tugas10_20220140008/assets/127292915/fffba5a4-1278-4071-b5f4-bf4e9218bbd6)
+![4](https://github.com/DzarZaki/Tugas10_20220140008/assets/127292915/3625cd1a-7651-443d-9fd9-707b96a9f658)
+![5](https://github.com/DzarZaki/Tugas10_20220140008/assets/127292915/21eda802-5e71-4a5d-8402-dfe0e6eeac3d)
+![6](https://github.com/DzarZaki/Tugas10_20220140008/assets/127292915/5d5a83d9-ac85-4309-8711-e33b9cbb50f6)
+![7](https://github.com/DzarZaki/Tugas10_20220140008/assets/127292915/5e56d3c2-df2d-4d8d-a532-135a33437c86)
